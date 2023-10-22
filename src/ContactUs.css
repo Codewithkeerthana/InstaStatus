@@ -1,0 +1,61 @@
+.container {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Styling for heading */
+  .heading {
+    color: white;
+  }
+  
+  /* Styling for form */
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Styling for labels */
+  .label {
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input fields and textarea */
+  .input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
+  /* Styling for error messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Styling for submit button */
+  .button {
+    padding: 10px;
+    background-color: #646cffaa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #646cffaa;
+  }
+  
